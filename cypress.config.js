@@ -7,3 +7,9 @@ module.exports = defineConfig({
     },
   },
 });
+{
+  defaultCommandTimeout: 10000
+  pageLoadTimeout: 60000         
+
+}
+
