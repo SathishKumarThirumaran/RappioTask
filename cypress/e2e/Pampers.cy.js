@@ -34,12 +34,16 @@ describe('Pampers AccountCreation and ProfileUpdate', () => {
         cy.get("button[title='Create your account']", { timeout: 5000 }).should('be.visible').click();
         cy.url().should('include', 'https://www.pampers.com/en-us/registration/thank-you-completed');
        
-        cy.get('[data-testid="span-link"]').should('exist').then((element) => {
-            element[0].addEventListener('click', () => {
-                console.log('[data-testid="span-link"]');
-            });
+
+        cy.wait('@graphql', { timeout: 30000 }).then((interception) => { expect(interception.response?.statusCode).to.equal(200); });
+        cy.get('[data-testid="span-link"]', { timeout: 30000 }).should('be.visible').click()
+
+        // cy.get('[data-testid="span-link"]').should('exist').then((element) => {
+        //     element[0].addEventListener('click', () => {
+        //         console.log('[data-testid="span-link"]');
+        //     });
      
-        });
+        // });
     });
     it('ProfileUpdate', () => {
 
