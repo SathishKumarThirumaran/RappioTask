@@ -51,8 +51,8 @@ describe('Pampers AccountCreation and ProfileUpdate', () => {
         cy.contains('profile icon').click();
         // cy.wait(5000);
         cy.get('[title="Login"]').click();
-        cy.get('[name="signInEmailAddress"]').click().type('satz@gmail.com');
-        cy.get('[type="password"]').click().type('Test@123');
+        cy.get('[name="signInEmailAddress"]').click().type(uniqueString);
+        cy.get('[type="password"]').click().type('Test@1234');
         cy.contains('Connect to your account').click();
         cy.wait(5000)
 
