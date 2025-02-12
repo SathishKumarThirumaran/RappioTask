@@ -26,3 +26,20 @@
 
 ///<reference types="cypress"/>
 /// <reference types="cypress-xpath" />
+
+import * as XLSX from 'xlsx'; // Import the xlsx library here
+
+// Create a custom command to read Excel data
+Cypress.Commands.add('readExcel', (filePath) => {
+  return cy.fixture(filePath, 'binary').then((fileData) => {
+    // Parse the binary data of the Excel file
+    const workbook = XLSX.read(fileData, { type: 'binary' });
+    const sheetName = workbook.SheetNames[0]; // Assuming data is in the first sheet
+    const sheet = workbook.Sheets[sheetName];
+    
+    // Convert the sheet to JSON format
+    const excelData = XLSX.utils.sheet_to_json(sheet);
+    return excelData;
+  });
+});
+  

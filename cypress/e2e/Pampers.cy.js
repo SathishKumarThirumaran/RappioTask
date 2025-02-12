@@ -52,7 +52,7 @@ describe('Pampers AccountCreation and ProfileUpdate', () => {
         // cy.wait(5000);
         cy.get('[title="Login"]').click();
         cy.get('[name="signInEmailAddress"]').click().type(uniqueString);
-        cy.get('[type="password"]').click().type('Test@1234');
+        cy.get('[type="password"]').click().type('Test@1234gi');
         cy.contains('Connect to your account').click();
         cy.wait(5000)
 

@@ -1,0 +1,288 @@
+{
+    "type": "ORDER_SUBMIT",
+    "order": {
+      "orderName": "Lexus-9911-test1-tuhin",
+      "key": 0,
+      "orderNumber": "f43f0913-b5b8-4fa2-95cb-10df81b5a0c8",
+      "MTOFlag": true,
+      "campaignPath": {
+        "DIGITAL_MEDIA": "https://amp-stage.rapp.com:443/blob/amp2-sod/f43f0913-b5b8-4fa2-95cb-10df81b5a0c8/digital.html"
+      },
+      "digitalStartDate": "2025-02-20T00:00:00",
+      "directMailStartDate": null,
+      "startDate": "2025-02-20T00:00:00",
+      "endDate": "2025-03-13T00:00:00",
+      "ctaUrlType": "WEBSITE",
+      "programName": null,
+      "campaignDescription": "desc",
+      "creativeTemplateId": "a444dde1-bab9-4c48-8d0c-e221609c6192",
+      "creativeTemplateName": "Bi-Fold - Theme 1 - Lexus",
+      "channelCutoffDates": { "DIGITAL_MEDIA": "2/6/2025 12:00:00 AM" },
+      "campaign": {
+        "key": 0,
+        "id": "f43f0913-b5b8-4fa2-95cb-10df81b5a0c8",
+        "name": "Order Test Campaign 0206",
+        "template": {
+          "key": 0,
+          "id": "a444dde1-bab9-4c48-8d0c-e221609c6192",
+          "sourceId": {
+            "id": "8ca20045-a903-4e42-b9fa-e570522242a1",
+            "source": "OCJ 2.0"
+          },
+          "type": "STANDARD",
+          "name": "Order Test Campaign 0206",
+          "description": "desc",
+          "deploymentType": "ON_DEMAND",
+          "media": [
+            {
+              "type": "campaign-thumbnail",
+              "location": "https://amp-stage.rapp.com:443/blob/amp2-sod/campaignthumbnails/assets/resizecomimages_SGwrNjIM.jpg"
+            }
+          ],
+          "selectionMode": "OPTIONAL",
+          "structuredAttributes": [
+            { "name": "Program", "options": [{ "name": "SOD" }] },
+            { "name": "Version", "options": [{ "name": "2" }] }
+          ],
+          "themeId": "8ca20045-a903-4e42-b9fa-e570522242a1"
+        },
+        "workflows": [
+          {
+            "key": 0,
+            "id": "a444dde1-bab9-4c48-8d0c-e221609c6192",
+            "template": {
+              "key": 0,
+              "id": "a444dde1-bab9-4c48-8d0c-e221609c6192",
+              "sourceId": {
+                "id": "76db2587-0f22-4b01-87b6-934b8a6cb62a",
+                "source": "OCJ 2.0"
+              }
+            },
+            "audience": {
+              "key": 0,
+              "audienceDefinition": null,
+              "customerCount": 0
+            },
+            "steps": [
+              {
+                "key": 0,
+                "id": "5583cc47-eb80-472c-9947-20aadc492f2d",
+                "template": {
+                  "key": 0,
+                  "id": "",
+                  "sourceId": {
+                    "id": "acb1bca1-27c6-4dc5-9601-199e6ba2b47c",
+                    "source": "RANDOM"
+                  }
+                },
+                "stepNumber": 1,
+                "stepName": "SOD 2.0 Deployment",
+                "startDate": "2025-02-20T00:00:00",
+                "creative": {
+                  "key": 0,
+                  "template": {
+                    "key": 0,
+                    "id": "8ca20045-a903-4e42-b9fa-e570522242a1",
+                    "sourceId": {
+                      "id": "8ca20045-a903-4e42-b9fa-e570522242a1",
+                      "source": "OCJ 2.0"
+                    }
+                  },
+                  "selectedCreativeTemplateCouponChannelRange": [
+                    {
+                      "key": 0,
+                      "couponId": "1cf71ab6-b726-4477-aeb9-e50412ce3d0e",
+                      "minAttachments": 1,
+                      "maxAttachments": 1,
+                      "fulfillmentChannels": "DIGITAL_MEDIA"
+                    }
+                  ],
+                  "customValues": {
+                    "DIGITAL:DISPLAY": {
+                      "Display_Hero_Headline": {
+                        "type": "plainTextField",
+                        "default": "Hero Headline"
+                      },
+                      "Hero_Image_Display_300x600": {
+                        "type": "imageField",
+                        "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/300x600HeroImage300x123_UMWGxlyySsfda.jpg",
+                        "imageType": "select"
+                      },
+                      "Hero_Image_Display_320x480": {
+                        "type": "imageField",
+                        "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/320x480toyota168x93_zsaMVVQPdtlcE.jpg",
+                        "imageType": "select"
+                      },
+                      "Hero_Image_Display_300x250": {
+                        "type": "imageField",
+                        "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/300x250toyota115x94_pSvtMqKo.jpg",
+                        "imageType": "select"
+                      },
+                      "Hero_Image_Display_160x600": {
+                        "type": "imageField",
+                        "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/160x600toyota160x83_nDPHYEYb.jpg",
+                        "imageType": "select"
+                      },
+                      "Hero_Image_Display_728x90": {
+                        "type": "imageField",
+                        "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/728x90toyota196x90_vLqccIgGMu.jpg",
+                        "imageType": "select"
+                      },
+                      "Display_Hero_CTA": {
+                        "type": "linkField",
+                        "placeholderLinkText": "CTA",
+                        "placeholderUrlInput": "PRIMARY_DEALER_LINK",
+                        "trackingParameters": ""
+                      },
+                      "Open_Disclaimer": {
+                        "type": "plainTextField",
+                        "default": "*ROLL OVER FOR DETAILS"
+                      },
+                      "Display_Disclaimer": {
+                        "type": "predefinedListTextField",
+                        "selectedType": "Please present coupon at time of write-up. Cannot be combined with any coupon, offer, or advertised special. Tax and Shop supplies additional. (Lexus vehicles only.)",
+                        "default": "Please present coupon at time of write-up. Cannot be combined with any coupon, offer, or advertised special. Tax and Shop supplies additional. (Lexus vehicles only.)"
+                      },
+                      "Theme_Brand_Logo": {
+                        "type": "imageField",
+                        "data_url": "https://qa-retail.azureedge.net/media/ikhbigh0/toyota-qaazureedgenet_media_32863_platinum_lexus_logo.png"
+                      }
+                    },
+                    "DIGITAL:SOCIAL": {
+                      "Social_Body_Copy": {
+                        "type": "plainTextField",
+                        "default": "Test Body oppy Social"
+                      },
+                      "Social_Headline": {
+                        "type": "plainTextField",
+                        "default": "Test Headline"
+                      },
+                      "Social_Hero_CTA": {
+                        "type": "linkField",
+                        "placeholderLinkText": "Learn More",
+                        "placeholderUrlInput": "https://www.google.com",
+                        "trackingParameters": ""
+                      },
+                      "Social_Disclaimer": {
+                        "type": "predefinedListTextField",
+                        "selectedType": "Present coupon at time of write-up. Cannot be combined with any other coupons or in-store offers. Plus tax, environmental fees & shop supplies. No cash value. See dealer for details.(Lexus vehicles only.)",
+                        "default": "Present coupon at time of write-up. Cannot be combined with any other coupons or in-store offers. Plus tax, environmental fees & shop supplies. No cash value. See dealer for details.(Lexus vehicles only.)"
+                      },
+                      "Social_Image": {
+                        "type": "imageWithHashField",
+                        "files": [
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/SocialStillsVehicleOnlyRZLifestyleVehicleonly0116x9_glKSzaNKYBwv.jpg",
+                            "hashId": "hash1 ",
+                            "cardCopy": "Test body copy 1"
+                          },
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/RXGasolineStill16x904_humqHTlU.jpg",
+                            "hashId": "hash2",
+                            "cardCopy": "Test body copy 2"
+                          },
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/TMNA2220105LEXUSCARERXTIRESOILBRAKES5366F_upsbFVQCBt.jpg",
+                            "hashId": "hash3",
+                            "cardCopy": "Test body copy 2"
+                          }
+                        ],
+                        "imageType": "select",
+                        "default": [
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/SocialStillsVehicleOnlyRZLifestyleVehicleonly0116x9_glKSzaNKYBwv.jpg",
+                            "file": {},
+                            "isCustom": false,
+                            "hashId": "hash1 ",
+                            "focused": true,
+                            "bodyCopy": "Test body copy 1"
+                          },
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/RXGasolineStill16x904_humqHTlU.jpg",
+                            "file": {},
+                            "isCustom": false,
+                            "hashId": "hash2",
+                            "focused": true,
+                            "bodyCopy": "Test body copy 2"
+                          },
+                          {
+                            "data_url": "https://amp-stage.rapp.com:443/blob/amp2-sod/55b55df9-0ff0-4378-ba14-3737e60da983/assets/TMNA2220105LEXUSCARERXTIRESOILBRAKES5366F_upsbFVQCBt.jpg",
+                            "file": {},
+                            "isCustom": false,
+                            "hashId": "hash3",
+                            "focused": true,
+                            "bodyCopy": "Test body copy 2"
+                          }
+                        ]
+                      },
+                      "Theme_Brand_Logo": {
+                        "type": "imageField",
+                        "data_url": "https://qa-retail.azureedge.net/media/ikhbigh0/toyota-qaazureedgenet_media_32863_platinum_lexus_logo.png"
+                      }
+                    }
+                  },
+                  "attachments": [
+                    {
+                      "key": 0,
+                      "template": {
+                        "key": 0,
+                        "id": "1cf71ab6-b726-4477-aeb9-e50412ce3d0e",
+                        "sourceId": {
+                          "id": "5fe83526-ecc3-4959-8261-2bcd7a0b6123",
+                          "source": "OCJ 2.0"
+                        }
+                      },
+                      "selectedCreativeTemplateCouponChannelRange": [],
+                      "customValues": {
+                        "Rendered_Image_Url": "",
+                        "Offer_Highlight_Title": "Order Form test",
+                        "Offer_Highlight_Name": "Order offer",
+                        "Offer_Highlight_Description_DM": "DM description",
+                        "Offer_Highlight_Disclaimer_DM": "Synthetic oil higher. Tax & Shop supplies extra. Present coupon at time of write-up. Cannot be combined with any coupon, offer, or advertised special. (Lexus vehicles only.) See advisor for details.",
+                        "Offer_Highlight_Description_EM": "EM description",
+                        "Offer_Highlight_Disclaimer_EM": "Tax & Shop supplies extra. Present coupon at time of write-up. Cannot be combined with any coupon, offer or advertised special. See advisor for details. (Lexus vehicles only.)",
+                        "Offer_Category": "TIRES",
+                        "Digital_Offer_Disclaimer": "Please present coupon at time of write-up. Cannot be combined with any coupon, offer, or advertised special. (Lexus vehicles only.)",
+                        "Digital_Offer_Line_1": "Digital Test line 1",
+                        "Digital_Offer_Line_2": "Digital Test line 2",
+                        "Offer_Expiration": "03/14/2025"
+                      },
+                      "attachments": [],
+                      "couponChannels": ["DIGITAL_MEDIA"]
+                    }
+                  ],
+                  "couponChannels": []
+                },
+                "fulfillmentChannels": ["DIGITAL_MEDIA"],
+                "fulfillmentChannelVariations": [],
+                "status": "PENDING",
+                "opted": true
+              }
+            ]
+          }
+        ],
+        "seeds": [],
+        "sampleRecipients": [],
+        "status": "SUBMITTED",
+        "market": {
+          "key": 131043,
+          "sourceId": { "id": "60232", "source": "TMNA" }
+        },
+        "hierarchy": {
+          "key": 8,
+          "id": "LEXUS",
+          "description": "Lexus Hierarchy",
+          "name": "Lexus"
+        },
+        "channelSettings": {}
+      },
+      "submitDate": "2025-02-06T09:17:18.3514504Z",
+      "market": {
+        "key": 131043,
+        "sourceId": { "id": "60232", "source": "TMNA" }
+      },
+      "digitalCategories": "e2b102ac-b0a8-40e6-8745-fea77e6a04d6,17bddc1b-ebb3-40d6-8976-4cf418f28032,",
+      "brand": "LEXUS",
+      "digitalSettings": { "campaignBudget": "500", "targetGeoRadius": "40" }
+    }
+  }
