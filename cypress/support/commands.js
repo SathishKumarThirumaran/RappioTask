@@ -27,6 +27,9 @@
 ///<reference types="cypress"/>
 /// <reference types="cypress-xpath" />
 
+/// <reference types = "moment"/>
+
+
 import * as XLSX from 'xlsx'; // Import the xlsx library here
 
 // Create a custom command to read Excel data
